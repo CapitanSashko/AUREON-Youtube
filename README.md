@@ -1,9 +1,8 @@
 # AUREON YouTube
 
-**English** | [Українська](README.uk.md)
-
 <img width="1033" height="635" alt="image" src="https://github.com/user-attachments/assets/985bc567-889f-43f8-b316-2a4ea48462b3" />
 
+**English** | [Українська](README.uk.md)
 
 **AUREON YouTube** is a desktop application for Windows that provides convenient access to YouTube through a modern interface built with C# and Windows Forms.
 
