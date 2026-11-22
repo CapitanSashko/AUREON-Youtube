@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+
+		<!-- Оставляем Nullable, но скрываем предупреждения о null в событиях -->
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<NoWarn>$(NoWarn);CS8618;CS8622;CS8600;CS8625;CS8601</NoWarn>
+
+		<!-- ========================================== -->
+		<!-- НАСТРОЙКИ ПРИЛОЖЕНИЯ И АВТОРА              -->
+		<!-- ========================================== -->
+		<AssemblyName>AUREON.YouTube</AssemblyName>
+		<RootNamespace>Youtube</RootNamespace>
+		<Product>AUREON YouTube</Product>
+		<AssemblyTitle>AUREON YouTube Client</AssemblyTitle>
+		<Description>Легкий та естетичний клієнт YouTube для Windows з підтримкою PiP та завантаження відео.</Description>
+
+		<Company>AUREON Youtube</Company>
+		<Authors>Oleksandr Echkenko</Authors>
+		<Copyright>Copyright © 2026 AUREON. All rights reserved.</Copyright>
+
+		<!-- Версия приложения -->
+		<Version>1.0.0</Version>
+		<FileVersion>1.0.0.0</FileVersion>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<NeutralLanguage>uk-UA</NeutralLanguage>
+
+		<!-- ========================================== -->
+		<!-- ИКОНКИ И НАСТРОЙКИ СБОРКИ                  -->
+		<!-- ========================================== -->
+		<ApplicationIcon>dxdt7ufey9qmw6rk3cm.ico</ApplicationIcon>
+
+		<!-- Включаем поддержку High-DPI без манифеста -->
+		<ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+		<ApplicationUseCompatibleTextRendering>false</ApplicationUseCompatibleTextRendering>
+
+		<PublishSingleFile>false</PublishSingleFile>
+		<SelfContained>false</SelfContained>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="dxdt7ufey9qmw6rk3cm.ico">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2739.15" />
+	</ItemGroup>
+
+</Project>
