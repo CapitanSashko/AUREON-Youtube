@@ -1,5 +1,7 @@
 # AUREON YouTube
 
+<img width="1033" height="635" alt="image" src="https://github.com/user-attachments/assets/985bc567-889f-43f8-b316-2a4ea48462b3" />
+
 [🇺🇦 Українська](#українська) | [🇬🇧 English](#english)
 
 **AUREON YouTube** — настільний застосунок для Windows, створений на C# із використанням Windows Forms та Microsoft Edge WebView2. Він забезпечує зручний доступ до YouTube, відтворення відео, режим мініпрогравача, голосовий пошук, а також завантаження відео, плейлистів і аудіо у форматі MP3.
